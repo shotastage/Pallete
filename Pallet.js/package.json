@@ -1,0 +1,9 @@
+{
+  "name": "Pallet.js",
+  "version": "1.0.0",
+  "description": "Color management library for Web.",
+  "main": "index.js",
+  "repository": "https://github.com/shotastage/Pallete.git",
+  "author": "Shota Shimazu",
+  "license": "MIT"
+}
