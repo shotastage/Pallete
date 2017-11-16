@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 
 //! Project version number for Pallet.
-FOUNDATION_EXPORT double PalletVersionNumber;
+FOUNDATION_EXPORT double PalleteVersionNumber;
 
 //! Project version string for Pallet.
-FOUNDATION_EXPORT const unsigned char PalletVersionString[];
+FOUNDATION_EXPORT const unsigned char PalleteVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Pallet/PublicHeader.h>
 
-#import <Pallet/PalletLabel.h>
+#import <Pallete/PalleteLabel.h>

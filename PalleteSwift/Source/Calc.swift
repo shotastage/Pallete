@@ -1,20 +1,19 @@
 //
 //  Calc.swift
-//  Pallet
+//  Pallete
 //
 //  Created by Shota Shimazu on 2017/11/16.
-//  Copyright © 2017 Labbiness. All rights reserved.
+//  Copyright © 2017 Shota Shimazu. All rights reserved.
 //
-
 
 import UIKit
 
-extension Pallet {
-
+extension Pallete {
+    
     static func complementaryColor(r: CGFloat, g: CGFloat, b: CGFloat, alpha: CGFloat) -> UIColor {
         
         let rgb: [CGFloat] = [r, g, b]
-       
+        
         var minmax: CGFloat {
             get {
                 return rgb.max()! + rgb.min()!
@@ -43,5 +42,5 @@ extension Pallet {
     static func ss() {
         
     }
-
+    
 }

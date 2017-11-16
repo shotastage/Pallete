@@ -1,4 +1,4 @@
-# Pallet
+# Pallete
 
 [![CI Status](http://img.shields.io/travis/shotastage/Pallet.svg?style=flat)](https://travis-ci.org/shotastage/Pallet)
 [![Version](https://img.shields.io/cocoapods/v/Pallet.svg?style=flat)](https://cocoapods.org/pods/Pallet)
@@ -30,7 +30,7 @@ To integrate Pallet into your Xcode project using CocoaPods, specify it in your 
 ```ruby
 use_frameworks!
 
-pod 'Pallet'
+pod 'Pallete'
 ```
 
 Then, run the following command:
@@ -54,10 +54,10 @@ $ brew install carthage
 To integrate Pallet into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "shotastage/Pallet" ~> 0.1
+github "shotastage/Pallete" ~> 0.1
 ```
 
-Run `carthage update` to build the framework and drag the built `Pallet`.framework into your Xcode project.
+Run `carthage update` to build the framework and drag the built `Pallete`.framework into your Xcode project.
 
 
 ## Author

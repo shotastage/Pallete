@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PalletLabel : UILabel
+@interface PalleteLabel : UILabel
 
 @end

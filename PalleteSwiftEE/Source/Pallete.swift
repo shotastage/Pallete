@@ -9,6 +9,6 @@
 import Foundation
 import UIKit
 
-open class Pallet {
+open class Pallete {
     ///
 }

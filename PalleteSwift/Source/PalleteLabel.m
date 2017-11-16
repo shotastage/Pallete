@@ -1,20 +1,20 @@
 //
-//  PalletLabel.m
-//  Pallet
+//  PalleteLabel.m
+//  Pallete
 //
 //  Created by Dmytro Zozulia on 23.06.17.
-//  Copyright © 2017 Labbiness. All rights reserved.
+//  Copyright © 2017 Shota Shimazu. All rights reserved.
 //
 
-#import "PalletLabel.h"
+#import "PalleteLabel.h"
 
-@implementation PalletLabel
+@implementation PalleteLabel
 
 - (instancetype)init
 {
     self = [super init];
     if (self) {
-        self.text = @"Pallet loaded";
+        self.text = @"Pallete loaded";
         self.textAlignment = NSTextAlignmentCenter;
     }
     return self;
