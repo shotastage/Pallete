@@ -10,7 +10,7 @@ import UIKit
 
 extension Pallete {
     
-    static func complementaryColor(r: CGFloat, g: CGFloat, b: CGFloat, alpha: CGFloat) -> UIColor {
+    public static func complementaryColor(r: CGFloat, g: CGFloat, b: CGFloat, alpha: CGFloat) -> UIColor {
         
         let rgb: [CGFloat] = [r, g, b]
         
