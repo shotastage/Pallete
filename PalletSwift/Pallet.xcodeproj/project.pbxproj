@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		258767A11FBD6E3800DEE334 /* Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258767A01FBD6E3800DEE334 /* Calc.swift */; };
+		258767A31FBD723500DEE334 /* Impressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258767A21FBD723500DEE334 /* Impressions.swift */; };
 		664AE2251EFD138500F89DE2 /* PalletLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 664AE2231EFD138500F89DE2 /* PalletLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		664AE2261EFD138500F89DE2 /* PalletLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 664AE2241EFD138500F89DE2 /* PalletLabel.m */; };
 		D93F1CA21EAEDB6E009A7474 /* Pallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93F1C981EAEDB6E009A7474 /* Pallet.framework */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		258767A01FBD6E3800DEE334 /* Calc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calc.swift; sourceTree = "<group>"; };
+		258767A21FBD723500DEE334 /* Impressions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impressions.swift; sourceTree = "<group>"; };
 		664AE2231EFD138500F89DE2 /* PalletLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalletLabel.h; sourceTree = "<group>"; };
 		664AE2241EFD138500F89DE2 /* PalletLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PalletLabel.m; sourceTree = "<group>"; };
 		D93F1C981EAEDB6E009A7474 /* Pallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +87,8 @@
 				664AE2231EFD138500F89DE2 /* PalletLabel.h */,
 				664AE2241EFD138500F89DE2 /* PalletLabel.m */,
 				D93F1C9C1EAEDB6E009A7474 /* Info.plist */,
+				258767A01FBD6E3800DEE334 /* Calc.swift */,
+				258767A21FBD723500DEE334 /* Impressions.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -215,7 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				258767A31FBD723500DEE334 /* Impressions.swift in Sources */,
 				D93F1CB31EAEDCC9009A7474 /* Pallet.swift in Sources */,
+				258767A11FBD6E3800DEE334 /* Calc.swift in Sources */,
 				664AE2261EFD138500F89DE2 /* PalletLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
