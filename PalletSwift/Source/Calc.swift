@@ -9,7 +9,7 @@
 
 import UIKit
 
-private class ColorCalculator {
+extension Pallet {
 
     static func complementaryColor(r: CGFloat, g: CGFloat, b: CGFloat, alpha: CGFloat) -> UIColor {
         
