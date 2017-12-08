@@ -10,7 +10,7 @@ import UIKit
 
 extension Pallete {
     
-    public static func complementaryColor(r: CGFloat, g: CGFloat, b: CGFloat, alpha: CGFloat) -> UIColor {
+    public static func complementaryColor(r: CGFloat, g: CGFloat, b: CGFloat, alpha: CGFloat = 1.0) -> UIColor {
         
         let rgb: [CGFloat] = [r, g, b]
         
@@ -23,16 +23,12 @@ extension Pallete {
             }
         }
         
-        let gR: CGFloat = minmax - r
-        let gG: CGFloat = minmax - g
-        let gB: CGFloat = minmax - b
-        
         
         let complementaryColor: UIColor = UIColor(
-            red: gR / 100,
-            green: gG / 100,
-            blue: gB / 100,
-            alpha: 1.0
+            red:     (minmax - r) / 255.0,
+            green:   (minmax - g) / 255.0,
+            blue:    (minmax - b) / 255.0,
+            alpha:   alpha
         )
         
         return complementaryColor
