@@ -6,15 +6,14 @@
 //  Copyright © 2017 Shota Shimazu. All rights reserved.
 //
 
-import UIKit
 
-extension Pallete {
+class PalleteColorCalc {
     
-    public static func complementaryColor(r: CGFloat, g: CGFloat, b: CGFloat, alpha: CGFloat = 1.0) -> UIColor {
+    public static complementaryColor(r: number, g: number, b: number, alpha: number = 1.0): string {
         
-        let rgb: [CGFloat] = [r, g, b]
+        let rgb: [number] = [r, g, b]
         
-        var minmax: CGFloat {
+        var minmax: number {
             get {
                 return rgb.max()! + rgb.min()!
             }
@@ -24,7 +23,7 @@ extension Pallete {
         }
         
         
-        let complementaryColor: UIColor = UIColor(
+        let complementaryColor: string = PLColor(
             red:     (minmax - r) / 255.0,
             green:   (minmax - g) / 255.0,
             blue:    (minmax - b) / 255.0,
@@ -33,10 +32,4 @@ extension Pallete {
         
         return complementaryColor
     }
-    
-    
-    static func ss() {
-        
-    }
-    
 }
