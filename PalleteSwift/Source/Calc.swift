@@ -35,8 +35,13 @@ extension Pallete {
     }
     
     
-    static func ss() {
+    public static func oppositeColor(r: CGFloat, g: CGFloat, b: CGFloat, alpha: CGFloat = 1.0) -> UIColor {
         
+        return UIColor(
+            red:     255.0 - r,
+            green:   255.0 - g,
+            blue:    255.0 - b,
+            alpha:   alpha
+        )
     }
-    
 }
